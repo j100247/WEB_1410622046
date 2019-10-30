@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的網站喔</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/POE_LOGO3.png" alt="logo" />
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <!-- 漢堡ICON -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#product" class="nav-link">聯盟</a></li>
+                        <li><a href="#video" class="nav-link">實況主介紹</a></li>
+                        <li><a href="#creative" class="nav-link">聯盟介紹</a></li>
+                        <li><a href="#activity" class="nav-link">活動</a></li>
+                        <li><a href="#standard" class="nav-link">挑戰獎勵</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/POE_BLIGHT1.jpeg" alt="">
+                    <div class="carousel-caption">
+                        <h1>凋落聯盟</h1>
+                        <p>最新聯盟</p>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/POE_LEGION.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>戰亂聯盟</h1>
+                        <p>能夠發大財聯盟</p>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/POE_MATHIL1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>POE_MATHIL1</h1>
+                        <p>POE最強男人 在他手上沒有不可能</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+        <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OdaPedD6VP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- 產品介紹區塊(創意) -->
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                聯盟介紹
+            </h2>
+            <!-- 產品照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="聯盟照片1" src="images/POE_BLIGHT2.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">新版聯盟資訊</span>
+                                <span class="card-text">考驗玩家</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>極限挑戰，從怪物中活下去吧!</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="聯盟照片2" src="images/POE_BLIGHT4.jpeg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">新版聯盟資訊</span>
+                                <span class="card-text">考驗玩家</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>極限挑戰，重新打造新的BUILDS</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="聯盟照片3" src="images/POE_BLIGHT6.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">新版聯盟資訊</span>
+                                <span class="card-text">考驗玩家</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>極限挑戰，努力蓋塔玩出不一樣的自我</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 商品文案 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="article_text">
+                    <h3>日常的刷圖</h3>
+                    <p>每天起床 開啟POE</br>
+                        下課一回到家 一大堆人買東西</br>
+                        POE的日常</br>
+                        如此的平淡、樸實、且無奈
+                    </p>
+                    <h3>定義POE的BUILDS</h3>
+                    <p>可玩性非常高</br>
+                        T18輕鬆打</br>
+                        奧爾沒在怕</br>
+                        站著硬A都能過
+                        就跟煎蛋一樣簡單
+                    </p>
+                    <h1>POE</h1>
+                    <p>有趣的機制 機制很有趣</br>
+                        給您意想不到的遊戲環境
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 背景影片 -->
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+        <source src="video/egg.mp4" type="video/mp4">
+      </video>
+        </div>
+    </section>
+
+    <!-- 商品促銷活動區塊 -->
+    <section id="activity" class="activity_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/POE_BLIGHT_BONES2.jpg">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/POE_BLIGHT_GUDA.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 規格 -->
+    <section id="standard" class="standard_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <table class="table table-hover">
+                        <tr>
+                            <h5 scope="col">挑戰說明：</h5>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row"> 12挑戰：</th>
+                                <td>頭部外觀:凋落禁地</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"> 24挑戰：</th>
+                                <td>時空之門:凋落禁地</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">36挑戰：</th>
+                                <td colspan="2">背飾:凋落禁地</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-sm-11">
+                        
+                         <img src="images/POE_BLIGHT_UP.jpg">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 貼心提醒 -->
+    <section>
+        <div class="container content">
+            <div class="row remind">
+                <h4>貼心提醒</h4>
+                <div class="w-100"></div>
+                <p>解挑戰時請注意：</p>
+                <ul>
+                    <li>請勿使用BUG以及第三方軟體進行</li>
+                    <li>如果遇到BUG請立即回覆，並且捷圖，如發現屬實會給予獎勵</li>
+                    <li>請開心的遊玩，POE會感謝你的</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="images/POE_LOGO3.png">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>專 線：XX-XXXXXXXXX</li>
+                        <li>服務時間：週一至週五 9:00 ~ 18:00</li>
+                        <li>服務信箱：s1410622046@nutc.edu.tw</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 POE .ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>
